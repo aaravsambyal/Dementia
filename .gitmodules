@@ -1,0 +1,6 @@
+[submodule "audio"]
+	path = audio
+	url = git@github.com:AlvinManojAlex/Dementia-From-Speech.git
+[submodule "score"]
+	path = score
+	url = git@github.com:bozdaglab/PPAD.git
