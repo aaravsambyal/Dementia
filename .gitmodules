@@ -4,3 +4,9 @@
 [submodule "score"]
 	path = score
 	url = git@github.com:bozdaglab/PPAD.git
+[submodule "tasks/memory_task"]
+	path = tasks/memory_task
+	url = git@github.com:vekteo/Nback_jsPsych.git
+[submodule "tasks/reaction_task"]
+	path = tasks/reaction_task
+	url = git@github.com:vekteo/GoNoGo_jsPsych.git
