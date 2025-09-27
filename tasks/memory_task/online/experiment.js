@@ -192,10 +192,10 @@ jsPsych.init({
     }
   },
   on_close: function() {
-    jsPsych.data.get().localSave("csv", `NBack_Subject_${subjectId}_${level}back_quitted_output.csv`);
+    // jsPsych.data.get().localSave("csv", `NBack_Subject_${subjectId}_${level}back_quitted_output.csv`);
   },
   on_finish: function() {
-    jsPsych.data.get().localSave("csv", `NBack_Subject_${subjectId}_${level}back_output.csv`);
+    // jsPsych.data.get().localSave("csv", `NBack_Subject_${subjectId}_${level}back_output.csv`);
     console.log(jsPsych.data.get().json());
   }
 });
