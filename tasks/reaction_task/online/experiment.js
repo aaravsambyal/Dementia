@@ -163,10 +163,10 @@ jsPsych.init({
         }
     },
     on_close: function(){
-        jsPsych.data.get().localSave("csv", `GNG_subject_${subjectId}_quitted_output.csv`);
+        // jsPsych.data.get().localSave("csv", `GNG_subject_${subjectId}_quitted_output.csv`);
       },
     on_finish: function() {
-      jsPsych.data.get().localSave("csv", `GNG_subject_${subjectId}_output.csv`);
+    //   jsPsych.data.get().localSave("csv", `GNG_subject_${subjectId}_output.csv`);
       console.log(jsPsych.data.get().json());
     }
   }); 
